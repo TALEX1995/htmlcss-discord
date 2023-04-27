@@ -133,12 +133,12 @@ header {
 
 
 .first-section > button {
-    padding: 10px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 30px;
     border: none;
     font-size: 20px;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 p {
