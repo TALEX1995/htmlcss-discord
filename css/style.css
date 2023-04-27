@@ -1,0 +1,174 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Properties */
+
+:root {
+    --color-blue: #1e90ff;
+    --color-pink: #ffc0cb;
+    --color-grey: #d3d3d3;
+}
+
+/* Utilities */
+
+.border2px {
+    border: 2px dashed black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.flex {
+    display: flex;
+}
+
+.small-column {
+    flex-basis: calc(100% / 3);
+    background-color: var(--color-pink);
+}
+
+.small-column, .big-column {
+    min-height: 500px;
+    border: 2px dashed black;
+}
+
+.big-column {
+    flex-basis: calc(100% / 3 * 2);
+    background-color: var(--color-blue);
+}
+
+/* Generics  */
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+/* Header */
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    min-height: 50px;
+    background-color: #daa520;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    min-height: 80px;
+    background-color: #add8e6;
+    padding: 20px 0;
+}
+
+#logo {
+    padding-left: 10px;
+    flex-basis: calc(100% / 4);
+}
+
+header > div {
+    min-height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.nav-bar {
+    flex-basis: calc(100% / 2);
+}
+
+.login {
+    flex-basis: calc(100% / 4);
+    text-align: right;
+}
+
+ul {
+    justify-content: center;
+}
+
+/* Main */
+
+.first-section {
+    height: 400px;
+    background-color: #ee82ee;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px dashed black;
+}
+
+.bkg-first-section {
+    background-color: #00008b; 
+}
+
+.bkg-second-section, .bkg-fourth-section {
+    background-color: white;
+}
+
+.bkg-third-section, .bkg-fifth-section {
+    background-color: var(--color-grey);
+}
+
+main > div {
+    padding: 40px 0;
+}
+
+.fifth-section {
+    min-height: 700px;
+    background-color: #228b22;
+}
+
+/* Footer */
+
+.container-footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid white; */
+    margin-bottom: 20px;
+}
+
+.container-footer > div {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.footer-first-column {
+    min-height: 600px;
+    background-color: #f08080;
+    flex-basis: 25%;
+}
+
+
+.footer-column {
+    min-height: 600px;
+    width: calc(75% / 4);
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+
+.registracion{ 
+    background-color: #7fffd4;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    text-decoration: none;
+}
+
