@@ -24,7 +24,7 @@
 
 .container {
     margin: 0 auto;
-    width: 1080px;
+    width: 1200px;
 }
 
 .flex {
@@ -229,7 +229,7 @@ h3 {
 }
 
 .container-footer > div {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #4a5882;
     padding-bottom: 20px;
 }
 
@@ -250,11 +250,11 @@ footer {
 }
 
 
-.registracion{
-    background-color: #7fffd4;
-    height: 50px;
+.register{
+    height: 100px;
     justify-content: space-between;
     align-items: center;
+    align-items: flex-start;
 }
 
 button {
@@ -294,4 +294,13 @@ h5 {
 .footer-column li {
     list-style-type: none;
     padding-top: 15px;
+}
+
+.register button {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
 }
