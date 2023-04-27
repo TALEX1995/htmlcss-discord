@@ -73,14 +73,14 @@ a {
 header {
     /* width: 100%; */
     min-height: 50px;
-    background-color: #daa520;
+    background-color: #3161e0;
     /* justify-content: space-between; */
     align-items: center;
 }
 
 .header-container {
     min-height: 80px;
-    background-color: #add8e6;
+    background-color: #3161e0;
     padding: 20px 0;
 }
 
@@ -117,6 +117,9 @@ ul {
     color: black;
 }
 
+
+/* Main */
+
 h1 {
     font-size: 50px;
     padding-bottom: 20px;
@@ -128,17 +131,27 @@ h1 {
     border: none;
     font-size: 20px;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 .first-section > p {
-    font-size: 20px;
+    font-size: 21px;
+    line-height: 30px;
 }
 
-/* Main */
+p + button {
+    background-color: white;
+}
+
+button + button {
+    background-color: #23272a;
+    color: white;
+}
+
 
 .first-section {
     height: 400px;
-    background-color: #ee82ee;
+    /* background-color: #ee82ee; */
     width: 800px;
     margin: 0 auto;
     border: 2px dashed black;
@@ -146,7 +159,8 @@ h1 {
 }
 
 .bkg-first-section {
-    background-color: #00008b; 
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .bkg-second-section, .bkg-fourth-section {
@@ -199,7 +213,7 @@ footer {
 }
 
 
-.registracion{ 
+.registracion{
     background-color: #7fffd4;
     height: 50px;
     justify-content: space-between;
